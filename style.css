@@ -1,4 +1,3 @@
-
 .box{  
      position:absolute; 
      height: 16%; 
@@ -12,43 +11,45 @@
      color: #fff;
      opacity: .20;
      z-index:-1;
-   } 
- 
+     font-style: italic; /* added font style italic */
+} 
 
 body
 {
-     margin: o;
+     margin: 0; /* corrected typo 'o' to '0' */
      padding: 0;
      background-color: #a2a8d3;
 }
+
 .nav ul
 {
      list-style: none; 
      padding: 0;
-      margin: 0;
+     margin: 0;
      text-align: center;
      z-index: 99;
 }
+
 .nav li
 {
- display: inline-block;
- text-align: center;
+     display: inline-block;
+     text-align: center;
 }
 
 .nav a
 {
      text-decoration: none;
      text-align: center;
-     color: darkblue;
+     color: Black;
      width: 100;
      display: inline;
      padding: 25px;
      font-size: 15px;
      z-index: 99;
+     font-style: italic; /* added font style italic */
 }
 
 .nav a:hover
 {
      background-color: white;
 }
-
